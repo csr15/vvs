@@ -1,0 +1,401 @@
+/*
+    title: VVS Innovation
+    version: 1.0.0
+    websiteURL: 'https://vvs.netlify.app'
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+p {
+  font-size: 14px;
+  color: #696969;
+  font-family: "Poppins", sans-serif;
+}
+
+.center, header .col-md-6 svg, .services .cards .card-hover .services-overview {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.brand {
+  color: #2922e9;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  background-color: #8eefda;
+  padding: 2px 5px;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar li a {
+  margin: 5px 10px;
+  color: #979393;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar li a:hover {
+  color: #000000;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar .navbar-toggler:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+header {
+  padding: 3rem 0;
+  position: relative;
+}
+
+header .col-md-6 h1 {
+  color: #000000;
+  font-size: clamp(2rem, calc(3.5vw + 1rem), 5rem);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+header .col-md-6 .btn-pri {
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #2922e9;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+header .col-md-6 .btn-pri:hover {
+  background-color: #8eefda;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #2922e9;
+}
+
+header .col-md-6 svg {
+  width: 100%;
+  padding: 0;
+}
+
+header #Group_458 {
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: header_reveal 20s linear infinite;
+          animation: header_reveal 20s linear infinite;
+  transform-box: fill-box;
+}
+
+header #Group_458 {
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: header_reveal 20s linear infinite;
+          animation: header_reveal 20s linear infinite;
+  transform-box: fill-box;
+}
+
+.blob {
+  position: relative;
+}
+
+.blob img {
+  position: absolute;
+  width: 50%;
+  top: 0%;
+  left: 5%;
+  -webkit-transform: translate(-50%, -60%);
+          transform: translate(-50%, -60%);
+  z-index: -1;
+  -webkit-animation: blob_rotater 10s linear infinite;
+          animation: blob_rotater 10s linear infinite;
+}
+
+.services {
+  padding: 3rem 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.services .title {
+  margin-bottom: 40px;
+}
+
+.services .title h1 {
+  font-size: 50px;
+  color: #28283e;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.services .title h5 {
+  color: #28283e;
+  font-weight: 500;
+}
+
+.services .cards {
+  background-color: #f2f2f2;
+  padding: 25px 15px;
+  margin: 25px 5px;
+  border-radius: 7px;
+  position: relative;
+  overflow: hidden;
+}
+
+.services .cards img {
+  margin-bottom: 40px;
+}
+
+.services .cards h2 {
+  font-weight: 700;
+}
+
+.services .cards button {
+  padding: 0;
+  margin: 5px 0 0 0;
+  color: #28283e;
+  background-color: transparent;
+}
+
+.services .cards button i {
+  margin-left: 5px;
+}
+
+.services .cards button:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #2922e9;
+}
+
+.services .cards button:hover i {
+  margin-left: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.services .cards .card-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  background-color: #f2f2f2;
+  padding: 25px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.services .cards .card-hover .close {
+  position: inherit;
+  top: 8%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.services .cards .card-hover .services-overview {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.services .cards .card-hover .services-overview p {
+  font-weight: 500;
+  border: 1px solid #d8d8d8;
+  padding: 0.3rem 1rem;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+.footer {
+  padding: 3rem 0 1rem 0;
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  margin-left: -15px;
+  border-top: 1px solid #e0dede;
+}
+
+.footer .title {
+  margin-bottom: 3rem;
+}
+
+.footer .title h1 {
+  font-size: 50px;
+  color: #28283e;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.footer .title h5 {
+  color: #28283e;
+  font-weight: 500;
+}
+
+.footer .col-md-6 h1 {
+  font-weight: 700;
+  display: inline-block;
+}
+
+.footer .col-md-6 p {
+  margin-top: 5px;
+}
+
+.footer .col-md-6 a {
+  display: block;
+  text-decoration: none;
+  color: #696969;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer .col-md-6 a:hover {
+  color: #000000;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer .col-md-6 a i {
+  margin-right: 5px;
+}
+
+@-webkit-keyframes header_reveal {
+  from {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+  to {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+}
+
+@keyframes header_reveal {
+  from {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+  to {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+}
+
+@-webkit-keyframes blob_rotater {
+  0% {
+    -webkit-transform: translate(-50%, -60%) scale(1.25);
+            transform: translate(-50%, -60%) scale(1.25);
+  }
+  50% {
+    -webkit-transform: translate(-50%, -60%) scale(1);
+            transform: translate(-50%, -60%) scale(1);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -60%) scale(1.25);
+            transform: translate(-50%, -60%) scale(1.25);
+  }
+}
+
+@keyframes blob_rotater {
+  0% {
+    -webkit-transform: translate(-50%, -60%) scale(1.25);
+            transform: translate(-50%, -60%) scale(1.25);
+  }
+  50% {
+    -webkit-transform: translate(-50%, -60%) scale(1);
+            transform: translate(-50%, -60%) scale(1);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -60%) scale(1.25);
+            transform: translate(-50%, -60%) scale(1.25);
+  }
+}
+
+@media (max-width: 991px) {
+  nav ul {
+    border-bottom: 1px solid #e0dddd;
+  }
+  .services .cards h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding-bottom: 25rem;
+    text-align: center;
+  }
+  header .col-md-6 .btn-pri {
+    padding: 12px 30px;
+  }
+  header .col-md-6 svg {
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-40%, -10%);
+            transform: translate(-40%, -10%);
+    width: 80%;
+    position: absolute;
+    z-index: -1;
+  }
+  .blob {
+    display: none;
+  }
+  .services .cards h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 450px) {
+  header {
+    padding-bottom: 20rem;
+  }
+  header .col-md-6 svg {
+    -webkit-transform: translate(-40%, -20%);
+            transform: translate(-40%, -20%);
+  }
+  .footer .col-md-6 h1 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
